@@ -2,11 +2,12 @@
 Shiny App to calculate probability of Risk visctory
 
 ```
-install.packages('shiny')
-install.packages('shinythemes')
+# install.packages('shiny')
+# install.packages('shinythemes')
  
 library(shiny)
 library(shinythemes)
+library(rsconnect)
 
 ui <- fluidPage(
   
@@ -28,6 +29,8 @@ ui <- fluidPage(
 server <- function(input, output, session) {
   
   results <- reactive({
+    
+    x.max <- max(input$red.qty, input$blue.qty)
     
     red.list <- list()
     blue.list <- list()
@@ -67,16 +70,15 @@ server <- function(input, output, session) {
     results <- list('redlist' = red.list)
     results <- append(results, list('bluelist' = blue.list))
     results <- append(results, red.wins)
-    # browser()
+    results <- append(results, x.max)
     results
-    
+
   })
   
   output$redplot <- renderPlot({
     hist(as.numeric(as.character(unlist(results()[1]))),
          prob = TRUE,
-         breaks = seq(0, 30, 2),
-         # xlim = c(0, 10),
+         breaks = seq(0, as.numeric(as.character(results()[4])), 1),
          main = 'Number of Red Troops Remaining',
          xlab = ''
     )
@@ -86,8 +88,7 @@ server <- function(input, output, session) {
   output$blueplot <- renderPlot({
     hist(as.numeric(as.character(unlist(results()[2]))),
          prob = TRUE,
-         breaks = seq(0, 30, 2),
-         # xlim = c(0, 10),
+         breaks = seq(0, as.numeric(as.character(results()[4])), 1),
          main = 'Number of Blue Troops Remaining',
          xlab = ''
     )
