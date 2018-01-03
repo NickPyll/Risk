@@ -4,6 +4,7 @@ Shiny App to calculate probability of Risk visctory
 ```
 # install.packages('shiny')
 # install.packages('shinythemes')
+# install.packages('rsconnect')
  
 library(shiny)
 library(shinythemes)
