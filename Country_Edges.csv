@@ -1,0 +1,167 @@
+T1,T2,C1,C2
+Alaska ,Northwest Territory ,NA,NA
+Alaska ,Alberta ,NA,NA
+Alaska ,Kamchatka ,NA,AS
+Alberta ,Alaska ,NA,NA
+Alberta ,Northwest Territory ,NA,NA
+Alberta ,Ontario ,NA,NA
+Alberta ,Western United States ,NA,NA
+Central America ,Western United States ,NA,NA
+Central America ,Eastern United States ,NA,NA
+Central America ,Venezuela ,NA,SA
+Eastern United States ,Western United States ,NA,NA
+Eastern United States ,Central America ,NA,NA
+Eastern United States ,Ontario ,NA,NA
+Eastern United States ,Quebec ,NA,NA
+Greenland ,Ontario ,NA,NA
+Greenland ,Quebec ,NA,NA
+Greenland ,Northwest Territory ,NA,NA
+Greenland ,Iceland ,NA,EU
+Northwest Territory ,Alberta ,NA,NA
+Northwest Territory ,Alaska ,NA,NA
+Northwest Territory ,Greenland ,NA,NA
+Northwest Territory ,Ontario ,NA,NA
+Ontario ,Quebec ,NA,NA
+Ontario ,Northwest Territory ,NA,NA
+Ontario ,Eastern United States ,NA,NA
+Ontario ,Greenland ,NA,NA
+Ontario ,Western United States ,NA,NA
+Ontario ,Alberta ,NA,NA
+Quebec ,Eastern United States ,NA,NA
+Quebec ,Greenland ,NA,NA
+Quebec ,Ontario ,NA,NA
+Western United States ,Alberta ,NA,NA
+Western United States ,Eastern United States ,NA,NA
+Western United States ,Central America ,NA,NA
+Western United States ,Ontario ,NA,NA
+Argentina ,Brazil ,SA,SA
+Argentina ,Peru ,SA,SA
+Brazil ,Peru ,SA,SA
+Brazil ,Venezuela ,SA,SA
+Brazil ,Argentina ,SA,SA
+Brazil ,North Africa ,SA,AF
+Peru ,Venezuela ,SA,SA
+Peru ,Argentina ,SA,SA
+Peru ,Brazil ,SA,SA
+Venezuela ,Central America ,SA,NA
+Venezuela ,Brazil ,SA,SA
+Venezuela ,Peru ,SA,SA
+Great Britain ,Iceland ,EU,EU
+Great Britain ,Northern Europe ,EU,EU
+Great Britain ,Scandinavia ,EU,EU
+Great Britain ,Western Europe ,EU,EU
+Iceland ,Scandinavia ,EU,EU
+Iceland ,Great Britain ,EU,EU
+Iceland ,Greenland ,EU,NA
+Northern Europe ,Scandinavia ,EU,EU
+Northern Europe ,Great Britain ,EU,EU
+Northern Europe ,Southern Europe ,EU,EU
+Northern Europe ,Ukraine ,EU,EU
+Northern Europe ,Western Europe ,EU,EU
+Scandinavia ,Iceland ,EU,EU
+Scandinavia ,Northern Europe ,EU,EU
+Scandinavia ,Great Britain ,EU,EU
+Scandinavia ,Ukraine ,EU,EU
+Southern Europe ,Western Europe ,EU,EU
+Southern Europe ,Northern Europe ,EU,EU
+Southern Europe ,Ukraine ,EU,EU
+Southern Europe ,North Africa ,EU,AF
+Southern Europe ,Egypt ,EU,AF
+Southern Europe ,Middle East ,EU,AS
+Ukraine ,Northern Europe ,EU,EU
+Ukraine ,Scandinavia ,EU,EU
+Ukraine ,Southern Europe ,EU,EU
+Ukraine ,Middle East ,EU,AS
+Ukraine ,Ural ,EU,AS
+Ukraine ,Afghanistan ,EU,AS
+Western Europe ,Northern Europe ,EU,EU
+Western Europe ,Southern Europe ,EU,EU
+Western Europe ,Great Britain ,EU,EU
+Western Europe ,North Africa ,EU,AF
+Central Africa ,East Africa ,AF,AF
+Central Africa ,North Africa ,AF,AF
+Central Africa ,South Africa ,AF,AF
+East Africa ,Egypt ,AF,AF
+East Africa ,Madagascar ,AF,AF
+East Africa ,North Africa ,AF,AF
+East Africa ,South Africa ,AF,AF
+East Africa ,Central Africa ,AF,AF
+East Africa ,Middle East ,AF,AS
+Egypt ,North Africa ,AF,AF
+Egypt ,East Africa ,AF,AF
+Egypt ,Middle East ,AF,AS
+Egypt ,Southern Europe ,AF,EU
+Madagascar ,South Africa ,AF,AF
+Madagascar ,East Africa ,AF,AF
+North Africa ,Central Africa ,AF,AF
+North Africa ,East Africa ,AF,AF
+North Africa ,Egypt ,AF,AF
+North Africa ,Southern Europe ,AF,EU
+North Africa ,Western Europe ,AF,EU
+North Africa ,Brazil ,AF,SA
+South Africa ,Central Africa ,AF,AF
+South Africa ,East Africa ,AF,AF
+South Africa ,Madagascar ,AF,AF
+Afghanistan ,Ukraine ,AS,EU
+Afghanistan ,Ural ,AS,AS
+Afghanistan ,China ,AS,AS
+Afghanistan ,India ,AS,AS
+Afghanistan ,Middle East ,AS,AS
+China ,Ural ,AS,AS
+China ,Afghanistan ,AS,AS
+China ,India ,AS,AS
+China ,Mongolia ,AS,AS
+China ,Siam,AS,AS
+China ,Siberia ,AS,AS
+India ,Afghanistan ,AS,AS
+India ,Middle East ,AS,AS
+India ,Siam,AS,AS
+India ,China ,AS,AS
+Irkutsk ,Mongolia ,AS,AS
+Irkutsk ,Kamchatka ,AS,AS
+Irkutsk ,Yakutsk ,AS,AS
+Irkutsk ,Siberia ,AS,AS
+Japan ,Mongolia ,AS,AS
+Japan ,Kamchatka ,AS,AS
+Kamchatka ,Yakutsk ,AS,AS
+Kamchatka ,Irkutsk ,AS,AS
+Kamchatka ,Mongolia ,AS,AS
+Kamchatka ,Japan ,AS,AS
+Kamchatka ,Alaska ,AS,NA
+Middle East ,Afghanistan ,AS,AS
+Middle East ,India ,AS,AS
+Middle East ,Southern Europe ,AS,EU
+Middle East ,Ukraine ,AS,EU
+Middle East ,East Africa ,AS,AF
+Middle East ,Egypt ,AS,AF
+Mongolia ,China ,AS,AS
+Mongolia ,Siberia ,AS,AS
+Mongolia ,Irkutsk ,AS,AS
+Mongolia ,Kamchatka ,AS,AS
+Mongolia ,Japan ,AS,AS
+Siam,China ,AS,AS
+Siam,India ,AS,AS
+Siam,Indonesia ,AS,AU
+Siberia ,China ,AS,AS
+Siberia ,Ural ,AS,AS
+Siberia ,Mongolia ,AS,AS
+Siberia ,Irkutsk ,AS,AS
+Siberia ,Yakutsk ,AS,AS
+Ural ,Ukraine ,AS,EU
+Ural ,Siberia ,AS,AS
+Ural ,China ,AS,AS
+Ural ,Afghanistan ,AS,AS
+Yakutsk ,Siberia ,AS,AS
+Yakutsk ,Irkutsk ,AS,AS
+Yakutsk ,Kamchatka ,AS,AS
+Eastern Australia ,New Guinea ,AU,AU
+Eastern Australia ,Western Australia,AU,AU
+Indonesia ,Siam,AU,AS
+Indonesia ,New Guinea ,AU,AU
+Indonesia ,Western Australia,AU,AU
+New Guinea ,Eastern Australia ,AU,AU
+New Guinea ,Indonesia ,AU,AU
+New Guinea ,Western Australia,AU,AU
+Western Australia,Eastern Australia ,AU,AU
+Western Australia,Indonesia ,AU,AU
+Western Australia,New Guinea ,AU,AU
